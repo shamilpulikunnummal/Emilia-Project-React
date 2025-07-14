@@ -1,0 +1,160 @@
+.image-grid {
+  display: grid;
+ grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+  padding: 10px;
+}
+
+.image-item {
+  display: block;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  transition: opacity 0.3s ease-in-out;
+  position: relative;
+}
+
+/* Hover Setup */
+.img-1 {
+  position: relative;
+}
+.hover-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  width: 100%;
+  height: 100%;
+}
+.img-1:hover .hover-img {
+  opacity: 1;
+}
+
+.btn-outline-dark{
+  position: absolute;
+  bottom: 0px;
+}
+
+.action-icons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.add-to-cart-wrapper {
+  width: 100%;
+  padding: 0 10px; /* optional: adds horizontal spacing */
+  box-sizing: border-box;
+}
+
+.add-to-cart-btn {
+  position: absolute;
+  bottom: 1px;
+  width: 90% !important;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 100%;
+  padding: 12px 0;
+  background-color: #fff;
+  color: rgb(47, 47, 47);
+  font-weight:700;
+  border: none;
+  border-radius: 8px;
+  font-size: .7rem;
+}
+
+
+.add-to-cart-btn:hover {
+  background-color: #a56b58;
+  color: #fff;
+}
+
+.icon-btn {
+  background: white;
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.icon-btn:hover {
+  background-color: #c28b74;
+  color: white !important;
+  transform: scale(1.1); /* just scale, no width/height change */
+}
+
+.action-icons i {
+  overflow: hidden;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.action-icons i:hover {
+  color: #fff !important;
+  overflow: hidden;
+}
+
+
+/* Responsive columns */
+@media screen and (max-width: 767px) {
+ 
+  .display-none-img-2, .display-none-img-3, .display-none-img-4, .none-img-5 {
+    display: none !important;
+  }
+    
+}
+
+
+@media (min-width: 1024px) {
+  .image-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+   /* .none-img-5 {
+        display: none;
+    }
+   */
+}
+
+@media (min-width: 1440px) {
+  .image-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  /* Show only the first 5 images */
+  
+  
+}
+
+@media (max-width: 375px) {
+  .add-to-cart-btn {
+    width: 70%; 
+    margin: 0 auto; /* centers the button */
+    font-size: 9px !important;
+  }
+
+  .image-grid{
+    gap: 0px;
+    padding: 0px;
+  } 
+}
+
+
+
+
+
+
+
+

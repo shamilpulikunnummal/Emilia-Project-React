@@ -1,0 +1,32 @@
+
+.lookbook {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ .lookbook-bg{
+    background: url(https://emillia.risingbamboo.com/wp-content/uploads/2025/03/lookbook-5-scaled.jpg) !important;
+    background-size: cover !important;
+    width: 100% !important;
+    height: 80vh;
+    object-fit: cover !important;
+    margin: 3rem;
+      
+}
+
+.lookbook-bg-overlay{
+    position: absolute;
+    top: 146px;
+    left: 80px;
+    width: 100%;
+    height: 100%;
+    
+}
+ 
+.lookbook .lookbook-bg .text-small{
+    line-height: 1.5rem;
+}

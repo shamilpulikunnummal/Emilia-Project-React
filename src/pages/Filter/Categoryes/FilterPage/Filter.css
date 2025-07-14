@@ -1,0 +1,68 @@
+
+.filter-coloumn {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F2F2F2;
+  justify-content: space-between !important;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.sort-dropdown{
+    margin: 0px 10px;
+}
+
+.view-btn{
+    padding: 10px 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    
+}
+
+select,
+select option {
+  text-transform: none !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis !important;
+  border: #ddd 1px solid;
+}
+
+
+
+
+/* Already existing styles above here */
+
+@media (max-width: 768px) {
+
+
+  .view-btn {
+    padding: 8px 10px;
+  }
+
+  .filter-title {
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .product-controls {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .sort-dropdown {
+    width: 100%;
+  }
+
+  .product-controls .view-toggle {
+    order: -1;
+    display: flex;
+    gap: 0.5rem;
+  }
+}

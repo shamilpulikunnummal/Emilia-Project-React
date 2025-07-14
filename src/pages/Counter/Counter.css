@@ -1,0 +1,43 @@
+.counter-container {
+  padding: 20px;
+  background-color: #F8F8F8;
+  margin: 2.5rem auto;
+}
+
+.time-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.time-box div {
+  /* background-color: #f3f3f3; */
+  text-align: center;
+  width: 6rem;
+  height: auto;
+  border: #666 solid 1px;
+  /* padding: 15px; */
+  border-radius: 10px;
+  /* max-width: 80px; */
+}
+
+
+.time-box p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.text-small{
+    font-size: small;
+    color: #979797;
+}
+
+.Colon{
+  text-align: center;
+  margin-top: 5px;
+
+}

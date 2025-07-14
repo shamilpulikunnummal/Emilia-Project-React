@@ -1,0 +1,23 @@
+footer{
+    width: 100%;
+    background-color: #F4F4F8;
+    overflow: hidden !important;
+    
+}
+
+footer .footer-section li{
+    font-size: .9rem;
+    list-style: none;
+    padding: 0;
+}
+
+.fa-solid{
+    color:#666666;
+}
+
+.icon-contant{
+    align-items: center;
+    gap: .7rem;
+}
+
+

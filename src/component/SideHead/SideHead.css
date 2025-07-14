@@ -1,0 +1,15 @@
+.side-head-title{
+    font-family: "Arimo", sans-serif;
+    color: black;
+     font-weight: 600;
+}
+
+.side-head-sub-tittle{
+    font-size: .8rem;
+    color: #6B6B6B;
+    margin: .8rem 0;
+}
+
+.side-head{
+    padding: 2rem;
+}

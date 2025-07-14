@@ -1,0 +1,84 @@
+.custom-sort-wrapper {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+}
+.custom-sort-option{
+  font-size: 13px !important;
+  font-weight: 600;
+}
+
+.custom-sort-toggle {
+  background-color: white;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  min-width: 220px;
+  text-align: left;
+  font-weight: 600 !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.custom-sort-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 10px 0;
+  z-index: 99;
+  margin-top: 6px;
+}
+
+.custom-sort-option {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.custom-sort-option input[type="radio"] {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #aaa;
+  border-radius: 50%;
+  position: relative;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.custom-sort-option input[type="radio"]:checked {
+  border-color: #de8d74;
+  background-color: #de8d74;
+}
+
+.custom-sort-option input[type="radio"]:checked::after {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 6px;
+  height: 6px;
+  background: white;
+  border-radius: 50%;
+}
+
+.label-text {
+  color: #333;
+  font-weight: 400;
+}
+
+.arrow {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+

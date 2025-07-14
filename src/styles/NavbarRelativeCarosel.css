@@ -1,0 +1,66 @@
+.carousel-wrapper {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px 0;
+}
+
+.carousel-wrapper .scrolling-text li span{
+    gap: 1rem;
+     margin: 1rem;
+}
+
+
+.scrolling-text {
+  display: flex;
+  animation: scrollText 20s linear infinite;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.scrolling-text li {
+  font-style: italic;
+  font-size:  .9rem;;
+  color: #1c1c1c;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .scrolling-text {
+    gap: 1.5rem;
+    animation-duration: 20s;
+  }
+
+  .scrolling-text li {
+    font-size: 0.9rem;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .scrolling-text {
+    gap: 1rem;
+    
+  }
+
+  .scrolling-text li {
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,17 @@
+.brandcaroselimg {
+  padding: 10px;
+  align-items: center;
+}
+
+.brandcaroselimg img {
+  width: 60% !important;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.carousel-container {
+  max-width: 100%;
+  margin: auto;
+  padding: 0 10px;
+}

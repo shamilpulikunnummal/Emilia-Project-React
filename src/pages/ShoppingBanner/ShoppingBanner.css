@@ -1,0 +1,95 @@
+.ShoppingBanner {
+  background-image: url('https://emillia.risingbamboo.com/wp-content/themes/emillia/dist/images/breadcrumb.jpg');
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  
+  position: relative;
+  margin-bottom: 15rem;
+
+}
+
+.ShoppingBanner h2 {
+  color: rgb(42, 42, 42);
+  text-align: center;
+  padding-top: 150px;
+  
+
+ 
+}
+
+.ShoppingBanner .carousel-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 250px;
+
+}
+
+.ShoppingBanner .corosel-circle {
+  display: flex;
+  justify-content: center;
+}
+
+.ShoppingBanner .circle-img-wrap {
+  text-align: center;
+}
+
+.ShoppingBanner .circle-img-wrap img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+}
+
+.circle-img-wrap img:hover {
+  transform: scale(1.05);
+}
+
+.circle-img-wrap p {
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.circle-img-wrap span {
+  font-size: 0.875rem;
+  color: #777;
+}
+
+
+@media screen and (max-width: 425px) {
+  .ShoppingBanner {
+    height: 250px;
+  }
+
+  .ShoppingBanner .carousel-container {
+    padding: 1rem;
+    top: 180px;
+  }
+
+  .ShoppingBanner h2 {
+    padding-top: 100px;
+    font-size: 1.5rem;
+  }
+
+  .carousel-container {
+    padding: 1rem;
+    /* top: 250px; */
+  }
+
+  .circle-img-wrap img {
+    width: 120px !important;
+    height: 120px !important;
+  }
+  
+}
+
+
+

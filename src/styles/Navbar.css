@@ -1,0 +1,49 @@
+
+
+.offcanvas-body ul li a {
+  text-decoration: none;
+  color: #000;
+  padding: 10px 0;
+  display: block;
+  font-weight: 500;
+}
+
+.offcanvas-body i {
+  font-size: 1rem;
+}
+
+.offcanvas-body .input-group {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  top: 20px;
+}
+
+.offcanvas-body a {
+  display: block;
+  padding: 10px 0;
+  font-weight: 500;
+  border-bottom: 1px solid #eee;
+}
+.offcanvas-body a:hover {
+  color: #000;
+}
+
+
+
+/* Shop */
+.shop-hr {
+  border: none;
+  height: 3px;
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
